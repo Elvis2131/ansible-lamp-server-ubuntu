@@ -1,0 +1,1 @@
+wp-server ansible_host=192.168.8.166 ansible_user=root ansible_ssh_pass=p@$$w0rd026. 

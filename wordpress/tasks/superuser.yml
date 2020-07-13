@@ -1,0 +1,5 @@
+- name: Creating a sudo user for the server
+  user:
+    name: "{{ username }}"
+    password: "{{ user_pass }}"
+    group: sudo
