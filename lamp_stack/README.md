@@ -1,7 +1,7 @@
 Role Name
 =========
 
-A brief description of the role goes here.
+An ansible role which sets up a LAMP server and installs wordpress on a ubuntu(debian) server.
 
 Requirements
 ------------
@@ -11,21 +11,15 @@ Any pre-requisites that may not be covered by Ansible itself or the role should 
 Role Variables
 --------------
 
-A description of the settable variables for this role should go here, including any variables that are in defaults/main.yml, vars/main.yml, and any variables that can/should be set via parameters to the role. Any variables that are read from other roles and/or the global scope (ie. hostvars, group vars, etc.) should be mentioned here as well.
-
-Dependencies
-------------
-
-A list of other roles hosted on Galaxy should go here, plus any details in regards to parameters that may need to be set for other roles, or variables that are used from other roles.
-
-Example Playbook
-----------------
-
-Including an example of how to use your role (for instance, with variables passed in as parameters) is always nice for users too:
-
-    - hosts: servers
-      roles:
-         - { role: username.rolename, x: 42 }
+domain_name: Sets the domain name needed for the LAMP server.
+host_name: Sets the hostname for the server.
+serverAdminEmail: The webmaster's email address for apache config.
+root_password: mysql root password.
+user_name: New mysql custom user name.
+user_password: New mysql user's password.
+database_name: New database to be created.
+wp_prefix: Wordpress database prefix.
+ports_allowed: firewall rules.
 
 License
 -------
