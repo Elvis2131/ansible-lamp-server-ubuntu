@@ -1,7 +1,0 @@
----
-    - import_tasks: superuser.yml
-    - import_tasks: installation.yml
-    - import_tasks: mysql_conf.yml
-    - import_tasks: apache_conf.yml
-    - import_tasks: wp_conf.yml
-

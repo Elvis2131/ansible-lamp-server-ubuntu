@@ -1,5 +1,0 @@
-- 
-    name: WordPress installation on Ubuntu 
-    hosts: wp-server
-    roles:
-      - wordpress

@@ -1,6 +1,0 @@
-- name: Installing dependencies
-  apt:
-    name: '{{ item }}'
-    state: latest
-  loop: ['apache2','php', 'mysql-server', 'libapache2-mod-php', 'php-mysql', 'php-curl', 'php-gd', 'php-mbstring', 
-    'php-xml', 'php-xmlrpc', 'php-soap', 'php-intl', 'php-zip', 'python3-pymysql']
