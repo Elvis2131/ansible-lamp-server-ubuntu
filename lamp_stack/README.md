@@ -11,15 +11,15 @@ Any pre-requisites that may not be covered by Ansible itself or the role should 
 Role Variables
 --------------
 
-domain_name: Sets the domain name needed for the LAMP server.
-host_name: Sets the hostname for the server.
-serverAdminEmail: The webmaster's email address for apache config.
-root_password: mysql root password.
-user_name: New mysql custom user name.
-user_password: New mysql user's password.
-database_name: New database to be created.
-wp_prefix: Wordpress database prefix.
-ports_allowed: firewall rules.
+- domain_name: Sets the domain name needed for the LAMP server.
+- host_name: Sets the hostname for the server.
+- serverAdminEmail: The webmaster's email address for apache config.
+- root_password: mysql root password.
+- user_name: New mysql custom user name.
+- user_password: New mysql user's password.
+- database_name: New database to be created.
+- wp_prefix: Wordpress database prefix.
+- ports_allowed: firewall rules.
 
 License
 -------
